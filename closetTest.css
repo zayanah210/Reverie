@@ -1,0 +1,158 @@
+
+html {
+  height: 100%;
+  width: 100%;
+
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #EEE4E1;
+}
+
+.clothing { 
+  position: relative; 
+} 
+
+.backgroundPlaceholder {
+  position: absolute;
+  width: 1300px;
+  height: 800px;
+ /* Adjust as needed */
+}
+
+.closetShirt {
+  position: absolute;
+  top: 200px; /* Ensure 'px' units are added */
+  left: 100px; /* Adjust as needed to move the .shirt image */
+  height: 350px;
+  width: 300px;
+  z-index: 1;
+}
+
+.closetPants {
+  position: absolute;
+  top: 200px; /* Ensure 'px' units are added */
+  left: 500px; /* Adjust as needed to move the .shirt image */
+  height: 350px;
+  width: 200px;
+  z-index: 2;
+}
+
+.closetShoes {
+  position: absolute;
+  top: 150px; /* Ensure 'px' units are added */
+  left: 800px; /* Adjust as needed to move the .shirt image */
+  height: 150px;
+  width: 275px;
+  object-fit: cover;
+  z-index: 3;
+}
+
+.closetAccessory {
+  position: absolute;
+  top: 350px; /* Ensure 'px' units are added */
+  left: 850px; /* Adjust as needed to move the .shirt image */
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  z-index: 4;
+}
+
+.chatBubble {
+  position: absolute;
+  top: 135px; /* Ensure 'px' units are added */
+  left: 1110px; /* Adjust as needed to move the .shirt image */
+  height: 270px;
+  width: 200px;
+  object-fit: cover;
+  z-index: 4;
+}
+
+.closetTitle {
+  width: 800px;
+  font-family: mySecondFont;
+  text-align: center;
+  border: 10px solid #fbd4d0;
+  border-radius: 20px;
+  background-color: #fbd4d0;
+  color: #743d25;
+  font-size: 70px;
+  position: absolute;
+  top: 25px; /* Ensure 'px' units are added */
+  left: 40px; /* Adjust as needed to move the .shirt image */
+  object-fit: cover;
+  z-index: 5;
+}
+
+.banner {
+  width: 100%;
+  font-family: myFirstFont;
+  text-align: center;
+  background-color: #743d25;
+  color: #743d25;
+  font-size: 70px;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  object-fit: cover;
+  z-index: 4;
+
+}
+
+.arrow {
+  font-family: Georgia;
+  text-align: center;
+  color: #743d25;
+  font-size: 150px;
+  position: absolute;
+  padding: 0;
+  top: 80px; 
+  left: 1170px; 
+  object-fit: cover;
+  z-index: 6;
+}
+
+
+
+/* .next-outfit {
+  font-family: mySecondFont;
+  text-align: center;
+  color: #743d25;
+  font-size: 20px;
+  position: absolute;
+  padding: 0;
+  top: 210px; 
+  left: 1150px; 
+  object-fit: cover;
+  z-index: 6;
+} */
+
+.home {
+  font-family: mySecondFont;
+  text-align: center;
+  color: #c57f7d;
+  font-size: 30px;
+  position: absolute;
+  top: 650px; 
+  left: 100px; 
+  object-fit: cover;
+  z-index: 6;
+}
+.character {
+  position: absolute;
+  top: 380px;
+  left: 77%; /* Adjust as needed to move the .shirt image */
+  height: 350px;
+  width: 270px;
+  z-index: 2;
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url(sheepishsage.regular.ttf);
+}

@@ -1,0 +1,123 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #EEE4E1;
+}
+h1{
+  font-family: myFirstFont;
+  padding: 15px;
+  font-size: 60px;
+  text-align: center;
+  background-color: #c57f7d;
+  color: #ECF8F8;
+}
+h2{
+  padding: 15px;
+  font-size: 40px;
+  background-color: #b68572;
+  color: #ECF8F8;
+  box-shadow: 10px 10px #c9ada7;
+  border-radius: 10px;
+}
+.hpButton{
+  width: 400px;
+  height: 300px;
+  font-family: mySecondFont;
+  padding: 15px;
+  font-size: 40px;
+  background-color: #c57f7d;
+  color: #ECF8F8;
+  box-shadow: 10px 10px #c9ada7;
+  border: none;
+  border-radius: 10px;
+}
+.titles{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+.outfit:hover {
+  background-color: #E6BEAE;
+  opacity: 0.7;
+}
+.closet:hover {
+  background-color: #E6BEAE;
+  opacity: 0.7;
+}
+
+.home {
+  font-family: mySecondFont;
+  text-align: center;
+  color: #c57f7d;
+  font-size: 30px;
+  position: absolute;
+  top: 670px; 
+  left: 100px; 
+  object-fit: cover;
+  z-index: 6;
+}
+
+.aestheticRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.chooseAesClean {
+  display: flex;
+  flex-direction: column;
+  border: 10px dotted white;
+  border-radius: 20px;
+}
+
+.chooseAesAlt {
+  display: flex;
+  flex-direction: column;
+  border: 10px dotted white;
+  border-radius: 20px;
+}
+
+.chooseAesCottage {
+  display: flex;
+  flex-direction: column;
+  border: 10px dotted white;
+  border-radius: 20px;
+}
+
+.chooseAes {
+  height: 450px;
+  width: 350px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.aesthetic-description {
+  width: 350px;
+  font-size: 25px;
+  background: #7e5844;
+  border: 10px solid #7e5844;
+  color: beige;
+  display: flex;
+  flex-direction: column;
+  font-family: mySecondFont;
+  border-radius: 15px;
+}
+
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(la-obrige.personal-use.otf);
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url(sheepishsage.regular.ttf);
+}
+
+img{
+  border-radius: 20px;
+}

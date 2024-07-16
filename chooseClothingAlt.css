@@ -1,0 +1,246 @@
+html {
+  height: 100%;
+  width: 100%;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #EEE4E1;
+}
+
+.clothing { 
+  position: relative; 
+} 
+
+.backgroundPlaceholder {
+  position: absolute;
+  width: 1300px;
+  height: 800px;
+ /* Adjust as needed */
+}
+button{
+  font-family: mySecondFont;
+  padding: 15px;
+  font-size: 15px;
+  background-color: #c57f7d;
+  color: #ECF8F8;
+  box-shadow: 7px 7px #a1847d;
+  border: none;
+  border-radius: 10px;
+}
+.shirt {
+  position: absolute;
+  top: 200px; /* Ensure 'px' units are added */
+  left: 100px; /* Adjust as needed to move the .shirt image */
+  height: 350px;
+  width: 300px;
+  z-index: 1;
+}
+
+.pants {
+  position: absolute;
+  top: 200px; /* Ensure 'px' units are added */
+  left: 550px; /* Adjust as needed to move the .shirt image */
+  height: 350px;
+  width: 200px;
+  z-index: 2;
+}
+
+.shoes {
+  position: absolute;
+  top: 140px; /* Ensure 'px' units are added */
+  left: 900px; /* Adjust as needed to move the .shirt image */
+  height: 150px;
+  width: 275px;
+  object-fit: cover;
+  z-index: 3;
+}
+
+.accessories {
+  position: absolute;
+  top: 430px; /* Ensure 'px' units are added */
+  left: 950px; /* Adjust as needed to move the .shirt image */
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  z-index: 4;
+}
+/* 
+.chatBubble {
+  position: absolute;
+  top: 135px; 
+  left: 1110px; 
+  height: 270px;
+  width: 200px;
+  object-fit: cover;
+  z-index: 4;
+} */
+
+.titleBox {
+  width: 800px;
+  font-family: mySecondFont;
+  text-align: center;
+  border: 10px solid #fbd4d0;
+  border-radius: 20px;
+  background-color: #fbd4d0;
+  color: #743d25;
+  font-size: 50px;
+  position: absolute;
+  top: 25px; /* Ensure 'px' units are added */
+  left: 40px; /* Adjust as needed to move the .shirt image */
+  object-fit: cover;
+  z-index: 5;
+}
+
+.banner {
+  width: 100%;
+  font-family: myFirstFont;
+  text-align: center;
+  background-color: #743d25;
+  color: #743d25;
+  font-size: 70px;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  object-fit: cover;
+  z-index: 4;
+
+}
+
+
+.cleanButtonSave{
+  border: 4px, solid, pink;
+}
+.arrowShirt {
+  font-family: Georgia;
+  text-align: center;
+  color: #743d25;
+  font-size: 150px;
+  position: absolute;
+  padding: 0;
+  top: 250px; 
+  left: 30%; 
+  object-fit: cover;
+  z-index: 6;
+}
+
+.arrowPants {
+  font-family: Georgia;
+  text-align: center;
+  color: #743d25;
+  font-size: 150px;
+  position: absolute;
+  padding: 0;
+  top: 250px; 
+  left: 54%; 
+  object-fit: cover;
+  z-index: 6;
+}
+
+.arrowShoes {
+  font-family: Georgia;
+  text-align: center;
+  color: #743d25;
+  font-size: 150px;
+  position: absolute;
+  padding: 0;
+  top: 100px; 
+  left: 85%; 
+  object-fit: cover;
+  z-index: 6;
+}
+
+.arrowAccessories {
+  font-family: Georgia;
+  text-align: center;
+  color: #743d25;
+  font-size: 150px;
+  position: absolute;
+  padding: 0;
+  top: 370px; 
+  left: 85%; 
+  object-fit: cover;
+  z-index: 6;
+}
+
+.home {
+  font-family: mySecondFont;
+  text-align: center;
+  color: #c57f7d;
+  font-size: 30px;
+  position: absolute;
+  top: 670px; 
+  left: 100px; 
+  object-fit: cover;
+  z-index: 6;
+}
+
+.character {
+  position: absolute;
+  top: 540px;
+  left: 83%; /* Adjust as needed to move the .shirt image */
+  height: 250px;
+  width: 200px;
+  z-index: 2;
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url(sheepishsage.regular.ttf);
+}
+
+.shirt-container{
+  display: flex;
+ flex-direction: column;
+  
+}
+
+.button-container {
+  position: relative;
+}
+
+.pant-button-container {
+  position: relative;
+}
+
+.shoes-button-container {
+  position: relative;
+}
+
+.shirt-button {
+  position: absolute;
+  height: 50px;
+  z-index: 10;
+  top: 560px;
+  left: 160px;
+}
+
+.pant-button {
+  position: absolute;
+  height: 50px;
+  z-index: 11;
+  top: 560px;
+  left: 550px;
+}
+
+.shoes-button {
+  position: absolute;
+  height: 50px;
+  z-index: 11;
+  top: 330px;
+  left: 930px;
+}
+
+.accessories-button {
+  position: absolute;
+  height: 50px;
+  z-index: 11;
+  top: 650px;
+  left: 930px;
+}
